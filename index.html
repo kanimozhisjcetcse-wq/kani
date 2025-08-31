@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Maldives</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0faff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(90deg, #0077b6, #00b4d8);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    nav {
+      background: #0077b6;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+    }
+
+    /* ✅ Change grid to vertical layout */
+    .grid {
+      display: flex;
+      flex-direction: column; 
+      gap: 20px;
+      align-items: center; /* centers the cards */
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+      width: 80%; /* makes cards look neat */
+      max-width: 500px;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    #backToTop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #0077b6;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🏝 Welcome to Maldives</h1>
+    <p>The tropical paradise of turquoise waters and white sandy beaches</p>
+  </header>
+
+  <section>
+    <h2>Explore Maldives</h2>
+    <div class="grid">
+
+      <div class="card" id="beaches">
+        <img src="./kani food/mal1.jpg" alt="Maldives Beach">
+        <h3><a href="https://en.wikipedia.org/wiki/Beach">Beaches</a></h3>
+        <p>The Maldives is home to some of the world’s most beautiful beaches with crystal-clear waters and soft white sand.</p>
+      </div>
+
+      <div class="card" id="resorts">
+        <img src="./kani food/resort.jpg" alt="Maldives Resort">
+        <h3><a href=https://en.wikipedia.org/wiki/Resort_hotel>Luxury Resorts</a></h3>
+        <p>Stay at luxurious water villas and enjoy breathtaking views, private pools, and world-class hospitality.</p>
+      </div>
+
+      <div class="card" id="diving">
+        <img src="./kani food/diving.jpg" alt="Maldives Diving">
+        <h3><a href=https://en.wikipedia.org/wiki/DivingDiving>Diving </a>& <a href="https://en.wikipedia.org/wiki/Snorkeling"> Snorkeling</a></h3>
+        <p>The Maldives is famous for its coral reefs and marine life, making it a paradise for divers and snorkelers.</p>
+      </div>
+
+      <div class="card" id="culture">
+        <img src="./kani food/culture.jpg" alt="Maldives Culture">
+        <h3><a href="https://en.wikipedia.org/wiki/Culture">Culture</a>  & <a href="https://en.wikipedia.org/wiki/Tradition" >Traditions</a></h3>
+        <p>Discover the rich cultural heritage of the Maldives through music, dance, and traditional Maldivian cuisine.</p>
+      </div>
+
+      <div class="card" id="food">
+        <img src="./kani food/food.jpg" alt="Maldives Food">
+        <h3><a href="https://en.wikipedia.org/wiki/Maldivian_cuisine">Maldives Food</a></h3>
+        <p>Try delicious Maldives dishes like <b>Mas Huni</b> (tuna with coconut), <b>Garudiya</b> (fish soup), and tropical desserts made with fresh coconuts and fruits.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- <footer>
+    <p>&copy; 2025 Discover Maldives | Designed by You</p>
+  </footer> -->
+
+<a href= "#top">⬆ Back to Top</a>
+
+</body>
+</html>
